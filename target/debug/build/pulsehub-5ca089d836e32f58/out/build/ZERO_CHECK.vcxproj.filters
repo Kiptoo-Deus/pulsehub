@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\JOEL\Documents\GitHub\pulsehub\pulsehub\target\debug\build\pulsehub-5ca089d836e32f58\out\build\CMakeFiles\f3ae771c0e554bb238e5dedd95c71a61\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3E908114-CC1C-323E-B80D-EBDDF971CF5D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

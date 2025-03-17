@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\JOEL\Documents\GitHub\pulsehub\pulsehub\cpp\system_monitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\JOEL\Documents\GitHub\pulsehub\pulsehub\cpp\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B33F9A7F-B0A6-3759-BA96-73C495A48404}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

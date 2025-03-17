@@ -2,19 +2,20 @@
 
 #ifdef _WIN32
 #include <windows.h>
+#define EXPORT __declspec(dllexport)
 #else
 #include <unistd.h>
+#define EXPORT
 #endif
 
 extern "C" {
-    double get_cpu_usage() {
-      
+    EXPORT double get_cpu_usage() {
         #ifdef _WIN32
-        Sleep(100); // Windows sleep
+        Sleep(100);
         #else
-        usleep(100000); // Unix sleep
+        usleep(100000);
         #endif
-        return 42.5; // Dummy value
+        return 42.5;
     }
 }
 

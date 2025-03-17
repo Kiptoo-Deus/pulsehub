@@ -1,0 +1,10 @@
+^C:\USERS\JOEL\DOCUMENTS\GITHUB\PULSEHUB\PULSEHUB\TARGET\DEBUG\BUILD\PULSEHUB-5CA089D836E32F58\OUT\BUILD\CMAKEFILES\F3AE771C0E554BB238E5DEDD95C71A61\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/JOEL/Documents/GitHub/pulsehub/pulsehub/cpp -BC:/Users/JOEL/Documents/GitHub/pulsehub/pulsehub/target/debug/build/pulsehub-5ca089d836e32f58/out/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/JOEL/Documents/GitHub/pulsehub/pulsehub/target/debug/build/pulsehub-5ca089d836e32f58/out/build/PulseHubCpp.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
