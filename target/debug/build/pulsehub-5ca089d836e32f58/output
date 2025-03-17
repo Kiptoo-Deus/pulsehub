@@ -16,34 +16,14 @@ HOST_CMAKE = None
 CMAKE = None
 running: "cmake" "C:\\Users\\JOEL\\Documents\\GitHub\\pulsehub\\pulsehub\\cpp" "-G" "Visual Studio 17 2022" "-Thost=x64" "-Ax64" "-DCMAKE_INSTALL_PREFIX=C:\\Users\\JOEL\\Documents\\GitHub\\pulsehub\\pulsehub\\target\\debug\\build\\pulsehub-5ca089d836e32f58\\out" "-DCMAKE_C_FLAGS= -nologo -MD -Brepro" "-DCMAKE_C_FLAGS_DEBUG= -nologo -MD -Brepro" "-DCMAKE_CXX_FLAGS= -nologo -MD -Brepro" "-DCMAKE_CXX_FLAGS_DEBUG= -nologo -MD -Brepro" "-DCMAKE_ASM_FLAGS= -nologo -MD -Brepro" "-DCMAKE_ASM_FLAGS_DEBUG= -nologo -MD -Brepro" "-DCMAKE_BUILD_TYPE=Debug"
 -- Selecting Windows SDK version 10.0.22000.0 to target Windows 10.0.19045.
--- The C compiler identification is MSVC 19.34.31937.0
--- The CXX compiler identification is MSVC 19.34.31937.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.34.31933/bin/Hostx64/x64/cl.exe - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.34.31933/bin/Hostx64/x64/cl.exe - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Configuring done (10.0s)
+-- Configuring done (0.1s)
 -- Generating done (0.1s)
 -- Build files have been written to: C:/Users/JOEL/Documents/GitHub/pulsehub/pulsehub/target/debug/build/pulsehub-5ca089d836e32f58/out/build
 running: "cmake" "--build" "C:\\Users\\JOEL\\Documents\\GitHub\\pulsehub\\pulsehub\\target\\debug\\build\\pulsehub-5ca089d836e32f58\\out\\build" "--target" "system_monitor" "--config" "Debug" "--parallel" "4"
 MSBuild version 17.4.1+9a89d02ff for .NET Framework
-  1>Checking Build System
-  Building Custom Rule C:/Users/JOEL/Documents/GitHub/pulsehub/pulsehub/cpp/CMakeLists.txt
-  system_monitor.cpp
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ostream(414,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Users\JOEL\Documents\GitHub\pulsehub\pulsehub\target\debug\build\pulsehub-5ca089d836e32f58\out\build\system_monitor.vcxproj]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ostream(407,1): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)' [C:\Users\JOEL\Documents\GitHub\pulsehub\pulsehub\target\debug\build\pulsehub-5ca089d836e32f58\out\build\system_monitor.vcxproj]
-C:\Users\JOEL\Documents\GitHub\pulsehub\pulsehub\cpp\system_monitor.cpp(23,51): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)' being compiled [C:\Users\JOEL\Documents\GitHub\pulsehub\pulsehub\target\debug\build\pulsehub-5ca089d836e32f58\out\build\system_monitor.vcxproj]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ostream(671,75): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled [C:\Users\JOEL\Documents\GitHub\pulsehub\pulsehub\target\debug\build\pulsehub-5ca089d836e32f58\out\build\system_monitor.vcxproj]
-     Creating library C:/Users/JOEL/Documents/GitHub/pulsehub/pulsehub/target/debug/build/pulsehub-5ca089d836e32f58/out/build/lib/Debug/system_monitor.lib and object C:/Users/JOEL/Documents/GitHub/pulsehub/pulsehub/target/debug/build/pulsehub-5ca089d836e32f58/out/build/lib/Debug/system_monitor.exp
   system_monitor.vcxproj -> C:\Users\JOEL\Documents\GitHub\pulsehub\pulsehub\target\debug\build\pulsehub-5ca089d836e32f58\out\build\lib\Debug\system_monitor.dll
-  'pwsh.exe' is not recognized as an internal or external command,
-  operable program or batch file.
 cargo:root=C:\Users\JOEL\Documents\GitHub\pulsehub\pulsehub\target\debug\build\pulsehub-5ca089d836e32f58\out
 cargo:rustc-link-search=native=C:\Users\JOEL\Documents\GitHub\pulsehub\pulsehub\target\debug\build\pulsehub-5ca089d836e32f58\out/build/lib/Debug
 cargo:rustc-link-lib=dylib=system_monitor
+cargo:rustc-link-search=native=C:/vcpkg/installed/x64-windows/lib
+cargo:rustc-link-lib=SDL2

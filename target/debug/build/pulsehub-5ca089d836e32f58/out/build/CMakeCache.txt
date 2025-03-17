@@ -203,6 +203,9 @@ PulseHubCpp_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 PulseHubCpp_SOURCE_DIR:STATIC=C:/Users/JOEL/Documents/GitHub/pulsehub/pulsehub/cpp
 
+//Dependencies for the target
+system_monitor_LIB_DEPENDS:STATIC=general;SDL2.lib;general;SDL2main.lib;
+
 
 ########################
 # INTERNAL cache entries

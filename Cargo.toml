@@ -4,7 +4,11 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-
+sdl2 = "0.34.5"
+imgui = "0.11.0"  # Upgrade imgui to v0.11.0
+imgui-sdl2 = "0.15.3"  # Make sure to update imgui-sdl2 to match imgui v0.11.0
+imgui-opengl-renderer = "0.12.1"  # Keep imgui-opengl-renderer at v0.12.1
 
 [build-dependencies]
 cmake = "0.1"
+

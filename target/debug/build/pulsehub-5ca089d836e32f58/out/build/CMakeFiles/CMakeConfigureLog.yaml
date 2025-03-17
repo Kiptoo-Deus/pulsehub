@@ -24,7 +24,7 @@ events:
       The output was:
       0
       MSBuild version 17.4.1+9a89d02ff for .NET Framework
-      Build started 3/17/2025 2:32:17 PM.
+      Build started 3/17/2025 4:47:43 PM.
       Project "C:\\Users\\JOEL\\Documents\\GitHub\\pulsehub\\pulsehub\\target\\debug\\build\\pulsehub-5ca089d836e32f58\\out\\build\\CMakeFiles\\3.31.4\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
@@ -32,20 +32,20 @@ events:
       InitializeBuildStatus:
         Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
       VcpkgTripletSelection:
-        Using triplet "x64-windows" from "C:\\Users\\JOEL\\vcpkg\\installed\\x64-windows\\"
+        Using triplet "x64-windows" from "C:\\vcpkg\\installed\\x64-windows\\"
         Using normalized configuration "Release"
       ClCompile:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\JOEL\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
         CMakeCCompilerId.c
       Link:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\JOEL\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\JOEL\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\JOEL\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
         CompilerIdC.vcxproj -> C:\\Users\\JOEL\\Documents\\GitHub\\pulsehub\\pulsehub\\target\\debug\\build\\pulsehub-5ca089d836e32f58\\out\\build\\CMakeFiles\\3.31.4\\CompilerIdC\\CompilerIdC.exe
       AppLocalFromInstalled:
-        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\JOEL\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\JOEL\\Documents\\GitHub\\pulsehub\\pulsehub\\target\\debug\\build\\pulsehub-5ca089d836e32f58\\out\\build\\CMakeFiles\\3.31.4\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\JOEL\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\JOEL\\Documents\\GitHub\\pulsehub\\pulsehub\\target\\debug\\build\\pulsehub-5ca089d836e32f58\\out\\build\\CMakeFiles\\3.31.4\\CompilerIdC\\CompilerIdC.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
         'pwsh.exe' is not recognized as an internal or external command,
         operable program or batch file.
-        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\JOEL\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\JOEL\\Documents\\GitHub\\pulsehub\\pulsehub\\target\\debug\\build\\pulsehub-5ca089d836e32f58\\out\\build\\CMakeFiles\\3.31.4\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\JOEL\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
-        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\JOEL\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\JOEL\\Documents\\GitHub\\pulsehub\\pulsehub\\target\\debug\\build\\pulsehub-5ca089d836e32f58\\out\\build\\CMakeFiles\\3.31.4\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\JOEL\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\JOEL\\Documents\\GitHub\\pulsehub\\pulsehub\\target\\debug\\build\\pulsehub-5ca089d836e32f58\\out\\build\\CMakeFiles\\3.31.4\\CompilerIdC\\CompilerIdC.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\JOEL\\Documents\\GitHub\\pulsehub\\pulsehub\\target\\debug\\build\\pulsehub-5ca089d836e32f58\\out\\build\\CMakeFiles\\3.31.4\\CompilerIdC\\CompilerIdC.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
         :VCEnd
@@ -59,7 +59,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:01.68
+      Time Elapsed 00:00:03.17
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -85,7 +85,7 @@ events:
       The output was:
       0
       MSBuild version 17.4.1+9a89d02ff for .NET Framework
-      Build started 3/17/2025 2:32:19 PM.
+      Build started 3/17/2025 4:47:47 PM.
       Project "C:\\Users\\JOEL\\Documents\\GitHub\\pulsehub\\pulsehub\\target\\debug\\build\\pulsehub-5ca089d836e32f58\\out\\build\\CMakeFiles\\3.31.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
@@ -93,20 +93,20 @@ events:
       InitializeBuildStatus:
         Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
       VcpkgTripletSelection:
-        Using triplet "x64-windows" from "C:\\Users\\JOEL\\vcpkg\\installed\\x64-windows\\"
+        Using triplet "x64-windows" from "C:\\vcpkg\\installed\\x64-windows\\"
         Using normalized configuration "Release"
       ClCompile:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\JOEL\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
         CMakeCXXCompilerId.cpp
       Link:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\JOEL\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\JOEL\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\JOEL\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
         CompilerIdCXX.vcxproj -> C:\\Users\\JOEL\\Documents\\GitHub\\pulsehub\\pulsehub\\target\\debug\\build\\pulsehub-5ca089d836e32f58\\out\\build\\CMakeFiles\\3.31.4\\CompilerIdCXX\\CompilerIdCXX.exe
       AppLocalFromInstalled:
-        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\JOEL\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\JOEL\\Documents\\GitHub\\pulsehub\\pulsehub\\target\\debug\\build\\pulsehub-5ca089d836e32f58\\out\\build\\CMakeFiles\\3.31.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\JOEL\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\JOEL\\Documents\\GitHub\\pulsehub\\pulsehub\\target\\debug\\build\\pulsehub-5ca089d836e32f58\\out\\build\\CMakeFiles\\3.31.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
         'pwsh.exe' is not recognized as an internal or external command,
         operable program or batch file.
-        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\JOEL\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\JOEL\\Documents\\GitHub\\pulsehub\\pulsehub\\target\\debug\\build\\pulsehub-5ca089d836e32f58\\out\\build\\CMakeFiles\\3.31.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\JOEL\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
-        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\JOEL\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\JOEL\\Documents\\GitHub\\pulsehub\\pulsehub\\target\\debug\\build\\pulsehub-5ca089d836e32f58\\out\\build\\CMakeFiles\\3.31.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\JOEL\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\JOEL\\Documents\\GitHub\\pulsehub\\pulsehub\\target\\debug\\build\\pulsehub-5ca089d836e32f58\\out\\build\\CMakeFiles\\3.31.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\JOEL\\Documents\\GitHub\\pulsehub\\pulsehub\\target\\debug\\build\\pulsehub-5ca089d836e32f58\\out\\build\\CMakeFiles\\3.31.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
         :VCEnd
@@ -120,7 +120,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:02.32
+      Time Elapsed 00:00:02.43
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -139,8 +139,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/JOEL/Documents/GitHub/pulsehub/pulsehub/target/debug/build/pulsehub-5ca089d836e32f58/out/build/CMakeFiles/CMakeScratch/TryCompile-cqpv71"
-      binary: "C:/Users/JOEL/Documents/GitHub/pulsehub/pulsehub/target/debug/build/pulsehub-5ca089d836e32f58/out/build/CMakeFiles/CMakeScratch/TryCompile-cqpv71"
+      source: "C:/Users/JOEL/Documents/GitHub/pulsehub/pulsehub/target/debug/build/pulsehub-5ca089d836e32f58/out/build/CMakeFiles/CMakeScratch/TryCompile-yzpye5"
+      binary: "C:/Users/JOEL/Documents/GitHub/pulsehub/pulsehub/target/debug/build/pulsehub-5ca089d836e32f58/out/build/CMakeFiles/CMakeScratch/TryCompile-yzpye5"
     cmakeVariables:
       CMAKE_C_FLAGS: " -nologo -MD -Brepro"
       CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
@@ -149,43 +149,43 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/JOEL/Documents/GitHub/pulsehub/pulsehub/target/debug/build/pulsehub-5ca089d836e32f58/out/build/CMakeFiles/CMakeScratch/TryCompile-cqpv71'
+        Change Dir: 'C:/Users/JOEL/Documents/GitHub/pulsehub/pulsehub/target/debug/build/pulsehub-5ca089d836e32f58/out/build/CMakeFiles/CMakeScratch/TryCompile-yzpye5'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_581e1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8c237.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.4.1+9a89d02ff for .NET Framework
-        Build started 3/17/2025 2:32:22 PM.
-        Project "C:\\Users\\JOEL\\Documents\\GitHub\\pulsehub\\pulsehub\\target\\debug\\build\\pulsehub-5ca089d836e32f58\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cqpv71\\cmTC_581e1.vcxproj" on node 1 (default targets).
+        Build started 3/17/2025 4:47:50 PM.
+        Project "C:\\Users\\JOEL\\Documents\\GitHub\\pulsehub\\pulsehub\\target\\debug\\build\\pulsehub-5ca089d836e32f58\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yzpye5\\cmTC_8c237.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_581e1.dir\\Debug\\".
-          Creating directory "C:\\Users\\JOEL\\Documents\\GitHub\\pulsehub\\pulsehub\\target\\debug\\build\\pulsehub-5ca089d836e32f58\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cqpv71\\Debug\\".
-          Creating directory "cmTC_581e1.dir\\Debug\\cmTC_581e1.tlog\\".
+          Creating directory "cmTC_8c237.dir\\Debug\\".
+          Creating directory "C:\\Users\\JOEL\\Documents\\GitHub\\pulsehub\\pulsehub\\target\\debug\\build\\pulsehub-5ca089d836e32f58\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yzpye5\\Debug\\".
+          Creating directory "cmTC_8c237.dir\\Debug\\cmTC_8c237.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_581e1.dir\\Debug\\cmTC_581e1.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_8c237.dir\\Debug\\cmTC_8c237.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         VcpkgTripletSelection:
-          Using triplet "x64-windows" from "C:\\Users\\JOEL\\vcpkg\\installed\\x64-windows\\"
+          Using triplet "x64-windows" from "C:\\vcpkg\\installed\\x64-windows\\"
           Using normalized configuration "Release"
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\JOEL\\vcpkg\\installed\\x64-windows\\include" /nologo /W1 /WX- /diagnostics:column /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_581e1.dir\\Debug\\\\" /Fd"cmTC_581e1.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /nologo /W1 /WX- /diagnostics:column /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8c237.dir\\Debug\\\\" /Fd"cmTC_8c237.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\JOEL\\Documents\\GitHub\\pulsehub\\pulsehub\\target\\debug\\build\\pulsehub-5ca089d836e32f58\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cqpv71\\Debug\\cmTC_581e1.exe" /INCREMENTAL /ILK:"cmTC_581e1.dir\\Debug\\cmTC_581e1.ilk" /NOLOGO /LIBPATH:"C:\\Users\\JOEL\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\JOEL\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\JOEL\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/JOEL/Documents/GitHub/pulsehub/pulsehub/target/debug/build/pulsehub-5ca089d836e32f58/out/build/CMakeFiles/CMakeScratch/TryCompile-cqpv71/Debug/cmTC_581e1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/JOEL/Documents/GitHub/pulsehub/pulsehub/target/debug/build/pulsehub-5ca089d836e32f58/out/build/CMakeFiles/CMakeScratch/TryCompile-cqpv71/Debug/cmTC_581e1.lib" /MACHINE:X64  /machine:x64 cmTC_581e1.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_581e1.vcxproj -> C:\\Users\\JOEL\\Documents\\GitHub\\pulsehub\\pulsehub\\target\\debug\\build\\pulsehub-5ca089d836e32f58\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cqpv71\\Debug\\cmTC_581e1.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\JOEL\\Documents\\GitHub\\pulsehub\\pulsehub\\target\\debug\\build\\pulsehub-5ca089d836e32f58\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yzpye5\\Debug\\cmTC_8c237.exe" /INCREMENTAL /ILK:"cmTC_8c237.dir\\Debug\\cmTC_8c237.ilk" /NOLOGO /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/JOEL/Documents/GitHub/pulsehub/pulsehub/target/debug/build/pulsehub-5ca089d836e32f58/out/build/CMakeFiles/CMakeScratch/TryCompile-yzpye5/Debug/cmTC_8c237.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/JOEL/Documents/GitHub/pulsehub/pulsehub/target/debug/build/pulsehub-5ca089d836e32f58/out/build/CMakeFiles/CMakeScratch/TryCompile-yzpye5/Debug/cmTC_8c237.lib" /MACHINE:X64  /machine:x64 cmTC_8c237.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_8c237.vcxproj -> C:\\Users\\JOEL\\Documents\\GitHub\\pulsehub\\pulsehub\\target\\debug\\build\\pulsehub-5ca089d836e32f58\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yzpye5\\Debug\\cmTC_8c237.exe
         AppLocalFromInstalled:
-          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\JOEL\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\JOEL\\Documents\\GitHub\\pulsehub\\pulsehub\\target\\debug\\build\\pulsehub-5ca089d836e32f58\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cqpv71\\Debug\\cmTC_581e1.exe" "C:\\Users\\JOEL\\vcpkg\\installed\\x64-windows\\bin" "cmTC_581e1.dir\\Debug\\cmTC_581e1.tlog\\cmTC_581e1.write.1u.tlog" "cmTC_581e1.dir\\Debug\\vcpkg.applocal.log"
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\JOEL\\Documents\\GitHub\\pulsehub\\pulsehub\\target\\debug\\build\\pulsehub-5ca089d836e32f58\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yzpye5\\Debug\\cmTC_8c237.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "cmTC_8c237.dir\\Debug\\cmTC_8c237.tlog\\cmTC_8c237.write.1u.tlog" "cmTC_8c237.dir\\Debug\\vcpkg.applocal.log"
           'pwsh.exe' is not recognized as an internal or external command,
           operable program or batch file.
-          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\JOEL\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\JOEL\\Documents\\GitHub\\pulsehub\\pulsehub\\target\\debug\\build\\pulsehub-5ca089d836e32f58\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cqpv71\\Debug\\cmTC_581e1.exe" "C:\\Users\\JOEL\\vcpkg\\installed\\x64-windows\\bin" "cmTC_581e1.dir\\Debug\\cmTC_581e1.tlog\\cmTC_581e1.write.1u.tlog" "cmTC_581e1.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
-          "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\JOEL\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\JOEL\\Documents\\GitHub\\pulsehub\\pulsehub\\target\\debug\\build\\pulsehub-5ca089d836e32f58\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cqpv71\\Debug\\cmTC_581e1.exe" "C:\\Users\\JOEL\\vcpkg\\installed\\x64-windows\\bin" "cmTC_581e1.dir\\Debug\\cmTC_581e1.tlog\\cmTC_581e1.write.1u.tlog" "cmTC_581e1.dir\\Debug\\vcpkg.applocal.log"
+          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\JOEL\\Documents\\GitHub\\pulsehub\\pulsehub\\target\\debug\\build\\pulsehub-5ca089d836e32f58\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yzpye5\\Debug\\cmTC_8c237.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "cmTC_8c237.dir\\Debug\\cmTC_8c237.tlog\\cmTC_8c237.write.1u.tlog" "cmTC_8c237.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
+          "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\JOEL\\Documents\\GitHub\\pulsehub\\pulsehub\\target\\debug\\build\\pulsehub-5ca089d836e32f58\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yzpye5\\Debug\\cmTC_8c237.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "cmTC_8c237.dir\\Debug\\cmTC_8c237.tlog\\cmTC_8c237.write.1u.tlog" "cmTC_8c237.dir\\Debug\\vcpkg.applocal.log"
         FinalizeBuildStatus:
-          Deleting file "cmTC_581e1.dir\\Debug\\cmTC_581e1.tlog\\unsuccessfulbuild".
-          Touching "cmTC_581e1.dir\\Debug\\cmTC_581e1.tlog\\cmTC_581e1.lastbuildstate".
-        Done Building Project "C:\\Users\\JOEL\\Documents\\GitHub\\pulsehub\\pulsehub\\target\\debug\\build\\pulsehub-5ca089d836e32f58\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cqpv71\\cmTC_581e1.vcxproj" (default targets).
+          Deleting file "cmTC_8c237.dir\\Debug\\cmTC_8c237.tlog\\unsuccessfulbuild".
+          Touching "cmTC_8c237.dir\\Debug\\cmTC_8c237.tlog\\cmTC_8c237.lastbuildstate".
+        Done Building Project "C:\\Users\\JOEL\\Documents\\GitHub\\pulsehub\\pulsehub\\target\\debug\\build\\pulsehub-5ca089d836e32f58\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yzpye5\\cmTC_8c237.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:01.63
+        Time Elapsed 00:00:02.38
         
       exitCode: 0
   -
@@ -225,8 +225,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/JOEL/Documents/GitHub/pulsehub/pulsehub/target/debug/build/pulsehub-5ca089d836e32f58/out/build/CMakeFiles/CMakeScratch/TryCompile-dg3hzg"
-      binary: "C:/Users/JOEL/Documents/GitHub/pulsehub/pulsehub/target/debug/build/pulsehub-5ca089d836e32f58/out/build/CMakeFiles/CMakeScratch/TryCompile-dg3hzg"
+      source: "C:/Users/JOEL/Documents/GitHub/pulsehub/pulsehub/target/debug/build/pulsehub-5ca089d836e32f58/out/build/CMakeFiles/CMakeScratch/TryCompile-jroxus"
+      binary: "C:/Users/JOEL/Documents/GitHub/pulsehub/pulsehub/target/debug/build/pulsehub-5ca089d836e32f58/out/build/CMakeFiles/CMakeScratch/TryCompile-jroxus"
     cmakeVariables:
       CMAKE_CXX_FLAGS: " -nologo -MD -Brepro"
       CMAKE_CXX_FLAGS_DEBUG: " -nologo -MD -Brepro"
@@ -236,43 +236,43 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/JOEL/Documents/GitHub/pulsehub/pulsehub/target/debug/build/pulsehub-5ca089d836e32f58/out/build/CMakeFiles/CMakeScratch/TryCompile-dg3hzg'
+        Change Dir: 'C:/Users/JOEL/Documents/GitHub/pulsehub/pulsehub/target/debug/build/pulsehub-5ca089d836e32f58/out/build/CMakeFiles/CMakeScratch/TryCompile-jroxus'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5633b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e386f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.4.1+9a89d02ff for .NET Framework
-        Build started 3/17/2025 2:32:24 PM.
-        Project "C:\\Users\\JOEL\\Documents\\GitHub\\pulsehub\\pulsehub\\target\\debug\\build\\pulsehub-5ca089d836e32f58\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dg3hzg\\cmTC_5633b.vcxproj" on node 1 (default targets).
+        Build started 3/17/2025 4:47:53 PM.
+        Project "C:\\Users\\JOEL\\Documents\\GitHub\\pulsehub\\pulsehub\\target\\debug\\build\\pulsehub-5ca089d836e32f58\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jroxus\\cmTC_e386f.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_5633b.dir\\Debug\\".
-          Creating directory "C:\\Users\\JOEL\\Documents\\GitHub\\pulsehub\\pulsehub\\target\\debug\\build\\pulsehub-5ca089d836e32f58\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dg3hzg\\Debug\\".
-          Creating directory "cmTC_5633b.dir\\Debug\\cmTC_5633b.tlog\\".
+          Creating directory "cmTC_e386f.dir\\Debug\\".
+          Creating directory "C:\\Users\\JOEL\\Documents\\GitHub\\pulsehub\\pulsehub\\target\\debug\\build\\pulsehub-5ca089d836e32f58\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jroxus\\Debug\\".
+          Creating directory "cmTC_e386f.dir\\Debug\\cmTC_e386f.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_5633b.dir\\Debug\\cmTC_5633b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_e386f.dir\\Debug\\cmTC_e386f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         VcpkgTripletSelection:
-          Using triplet "x64-windows" from "C:\\Users\\JOEL\\vcpkg\\installed\\x64-windows\\"
+          Using triplet "x64-windows" from "C:\\vcpkg\\installed\\x64-windows\\"
           Using normalized configuration "Release"
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\JOEL\\vcpkg\\installed\\x64-windows\\include" /nologo /W1 /WX- /diagnostics:column /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5633b.dir\\Debug\\\\" /Fd"cmTC_5633b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue  -Brepro -Brepro "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /nologo /W1 /WX- /diagnostics:column /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e386f.dir\\Debug\\\\" /Fd"cmTC_e386f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue  -Brepro -Brepro "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\JOEL\\Documents\\GitHub\\pulsehub\\pulsehub\\target\\debug\\build\\pulsehub-5ca089d836e32f58\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dg3hzg\\Debug\\cmTC_5633b.exe" /INCREMENTAL /ILK:"cmTC_5633b.dir\\Debug\\cmTC_5633b.ilk" /NOLOGO /LIBPATH:"C:\\Users\\JOEL\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\JOEL\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\JOEL\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/JOEL/Documents/GitHub/pulsehub/pulsehub/target/debug/build/pulsehub-5ca089d836e32f58/out/build/CMakeFiles/CMakeScratch/TryCompile-dg3hzg/Debug/cmTC_5633b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/JOEL/Documents/GitHub/pulsehub/pulsehub/target/debug/build/pulsehub-5ca089d836e32f58/out/build/CMakeFiles/CMakeScratch/TryCompile-dg3hzg/Debug/cmTC_5633b.lib" /MACHINE:X64  /machine:x64 cmTC_5633b.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_5633b.vcxproj -> C:\\Users\\JOEL\\Documents\\GitHub\\pulsehub\\pulsehub\\target\\debug\\build\\pulsehub-5ca089d836e32f58\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dg3hzg\\Debug\\cmTC_5633b.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\JOEL\\Documents\\GitHub\\pulsehub\\pulsehub\\target\\debug\\build\\pulsehub-5ca089d836e32f58\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jroxus\\Debug\\cmTC_e386f.exe" /INCREMENTAL /ILK:"cmTC_e386f.dir\\Debug\\cmTC_e386f.ilk" /NOLOGO /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/JOEL/Documents/GitHub/pulsehub/pulsehub/target/debug/build/pulsehub-5ca089d836e32f58/out/build/CMakeFiles/CMakeScratch/TryCompile-jroxus/Debug/cmTC_e386f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/JOEL/Documents/GitHub/pulsehub/pulsehub/target/debug/build/pulsehub-5ca089d836e32f58/out/build/CMakeFiles/CMakeScratch/TryCompile-jroxus/Debug/cmTC_e386f.lib" /MACHINE:X64  /machine:x64 cmTC_e386f.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_e386f.vcxproj -> C:\\Users\\JOEL\\Documents\\GitHub\\pulsehub\\pulsehub\\target\\debug\\build\\pulsehub-5ca089d836e32f58\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jroxus\\Debug\\cmTC_e386f.exe
         AppLocalFromInstalled:
-          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\JOEL\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\JOEL\\Documents\\GitHub\\pulsehub\\pulsehub\\target\\debug\\build\\pulsehub-5ca089d836e32f58\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dg3hzg\\Debug\\cmTC_5633b.exe" "C:\\Users\\JOEL\\vcpkg\\installed\\x64-windows\\bin" "cmTC_5633b.dir\\Debug\\cmTC_5633b.tlog\\cmTC_5633b.write.1u.tlog" "cmTC_5633b.dir\\Debug\\vcpkg.applocal.log"
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\JOEL\\Documents\\GitHub\\pulsehub\\pulsehub\\target\\debug\\build\\pulsehub-5ca089d836e32f58\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jroxus\\Debug\\cmTC_e386f.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "cmTC_e386f.dir\\Debug\\cmTC_e386f.tlog\\cmTC_e386f.write.1u.tlog" "cmTC_e386f.dir\\Debug\\vcpkg.applocal.log"
           'pwsh.exe' is not recognized as an internal or external command,
           operable program or batch file.
-          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\JOEL\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\JOEL\\Documents\\GitHub\\pulsehub\\pulsehub\\target\\debug\\build\\pulsehub-5ca089d836e32f58\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dg3hzg\\Debug\\cmTC_5633b.exe" "C:\\Users\\JOEL\\vcpkg\\installed\\x64-windows\\bin" "cmTC_5633b.dir\\Debug\\cmTC_5633b.tlog\\cmTC_5633b.write.1u.tlog" "cmTC_5633b.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
-          "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\JOEL\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\JOEL\\Documents\\GitHub\\pulsehub\\pulsehub\\target\\debug\\build\\pulsehub-5ca089d836e32f58\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dg3hzg\\Debug\\cmTC_5633b.exe" "C:\\Users\\JOEL\\vcpkg\\installed\\x64-windows\\bin" "cmTC_5633b.dir\\Debug\\cmTC_5633b.tlog\\cmTC_5633b.write.1u.tlog" "cmTC_5633b.dir\\Debug\\vcpkg.applocal.log"
+          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\JOEL\\Documents\\GitHub\\pulsehub\\pulsehub\\target\\debug\\build\\pulsehub-5ca089d836e32f58\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jroxus\\Debug\\cmTC_e386f.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "cmTC_e386f.dir\\Debug\\cmTC_e386f.tlog\\cmTC_e386f.write.1u.tlog" "cmTC_e386f.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
+          "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\JOEL\\Documents\\GitHub\\pulsehub\\pulsehub\\target\\debug\\build\\pulsehub-5ca089d836e32f58\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jroxus\\Debug\\cmTC_e386f.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "cmTC_e386f.dir\\Debug\\cmTC_e386f.tlog\\cmTC_e386f.write.1u.tlog" "cmTC_e386f.dir\\Debug\\vcpkg.applocal.log"
         FinalizeBuildStatus:
-          Deleting file "cmTC_5633b.dir\\Debug\\cmTC_5633b.tlog\\unsuccessfulbuild".
-          Touching "cmTC_5633b.dir\\Debug\\cmTC_5633b.tlog\\cmTC_5633b.lastbuildstate".
-        Done Building Project "C:\\Users\\JOEL\\Documents\\GitHub\\pulsehub\\pulsehub\\target\\debug\\build\\pulsehub-5ca089d836e32f58\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dg3hzg\\cmTC_5633b.vcxproj" (default targets).
+          Deleting file "cmTC_e386f.dir\\Debug\\cmTC_e386f.tlog\\unsuccessfulbuild".
+          Touching "cmTC_e386f.dir\\Debug\\cmTC_e386f.tlog\\cmTC_e386f.lastbuildstate".
+        Done Building Project "C:\\Users\\JOEL\\Documents\\GitHub\\pulsehub\\pulsehub\\target\\debug\\build\\pulsehub-5ca089d836e32f58\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jroxus\\cmTC_e386f.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:01.73
+        Time Elapsed 00:00:02.96
         
       exitCode: 0
   -
