@@ -10,10 +10,9 @@ fn main() -> Result<(), String> {
     let sdl_context = sdl2::init()?;
     let video = sdl_context.video()?;
 
-    // Configure OpenGL before creating the window
     let gl_attr = video.gl_attr();
     gl_attr.set_context_profile(sdl2::video::GLProfile::Core);
-    gl_attr.set_context_version(3, 3); // Use OpenGL 3.3 for compatibility-fixed the bug..woop woop!!
+    gl_attr.set_context_version(3, 3);
 
     let window = video
         .window("PulseHub", 800, 600)
@@ -22,7 +21,6 @@ fn main() -> Result<(), String> {
         .build()
         .map_err(|e| e.to_string())?;
 
-    // Load the OpenGL context
     let _gl_context = window.gl_create_context()?;
     window.gl_make_current(&_gl_context)?;
 
@@ -56,7 +54,7 @@ fn main() -> Result<(), String> {
         imgui_sdl2.prepare_render(ui, &window);
         renderer.render(&mut imgui);
 
-        window.gl_swap_window(); // Swap buffers to display the frame
+        window.gl_swap_window();
         std::thread::sleep(Duration::from_millis(100));
     }
     Ok(())
