@@ -1,2 +1,5 @@
-# pulsehub
- A customizable system monitoring dashboard with automation, built with Rust and C++
+# PulseHub
+A cross-platform dashboard for system monitoring and automation, blending C++ performance with Rust safety.
+
+## Status
+Work in progress!
